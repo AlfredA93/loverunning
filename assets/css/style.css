@@ -229,3 +229,16 @@ footer {
     text-decoration: none;
     list-style-type: none;
 }
+
+/* gallery */
+
+#photos {
+    clear:both;
+    line-height:0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos > img {
+    width:100%;
+}
